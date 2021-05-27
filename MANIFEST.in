@@ -1,0 +1,7 @@
+include dash_gauge_component/dash_gauge_component.min.js
+include dash_gauge_component/dash_gauge_component.min.js.map
+include dash_gauge_component/metadata.json
+include dash_gauge_component/package-info.json
+include README.md
+include LICENSE
+include package.json

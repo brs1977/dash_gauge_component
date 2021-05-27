@@ -1,0 +1,75 @@
+{
+  "src/lib/components/GaugeComponent.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "GaugeComponent",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks.",
+        "defaultValue": {
+          "value": "'gauge-chart'",
+          "computed": false
+        }
+      },
+      "percent": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The number where the pointer should point to (between 0 and 1)",
+        "defaultValue": {
+          "value": "0.5",
+          "computed": false
+        }
+      },
+      "nrOfLevels": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The number of elements displayed in the arc",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      },
+      "arcWidth": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The thickness of the arc",
+        "defaultValue": {
+          "value": "0.25",
+          "computed": false
+        }
+      },
+      "textColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the text",
+        "defaultValue": {
+          "value": "'#000000'",
+          "computed": false
+        }
+      },
+      "colors": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "An array of colors in HEX format displayed in the arc",
+        "defaultValue": {
+          "value": "['#EA4228', '#F5CD19', '#5BE12C']",
+          "computed": false
+        }
+      }
+    }
+  }
+}

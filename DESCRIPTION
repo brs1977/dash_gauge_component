@@ -1,0 +1,13 @@
+Package: dashGaugeComponent
+Title: Dash Gauge Component
+Version: 0.0.1
+Description: Dash Gauge Component
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/https://github.com/brs1977/dash-gauge-component
+BugReports: https://github.com/https://github.com/brs1977/dash-gauge-component/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
